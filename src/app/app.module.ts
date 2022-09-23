@@ -14,7 +14,7 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
     SlideshowComponent,
     MenuComponent,
     ImprintComponent,
-    DataProtectionComponent
+    DataProtectionComponent,
   ],
   imports: [
     BrowserModule,
