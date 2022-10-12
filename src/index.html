@@ -10,19 +10,6 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="hex"></div>
-    <div class="bg"></div>
-    <script>
-      const Root = document.querySelector(".container");
-      const BG = document.querySelector(".bg");
-
-      Root.addEventListener("mousemove", function (e) {
-        BG.style.left = `${e.clientX}px`;
-        BG.style.top = `${e.clientY}px`;
-      })
-    </script>
-  </div>
   <app-root></app-root>
 </body>
 

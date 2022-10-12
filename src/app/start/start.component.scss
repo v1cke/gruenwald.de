@@ -1,0 +1,23 @@
+.startscreen{
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    width: 100vw;
+    // padding-left: 20%;
+    // padding-right: 20%;
+    // left: 25%;
+    color: white;
+    position: absolute;
+    top: 200px;
+    span{
+        max-width: 800px;
+        font-size: 80px;
+    }
+
+    img{
+        max-width: 400px;
+        max-height: 600px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
