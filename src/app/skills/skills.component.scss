@@ -1,0 +1,36 @@
+.skills {
+    color: white;
+    height: calc(100vh - 100px);
+
+    h2 {
+        font-size: 56px;
+        text-align: center;
+        // padding-bottom: 64px;
+    }
+
+    .icon-container {
+        display: flex;
+        align-items: center;
+        gap: 85px;
+    }
+
+    .boxshadow {
+        box-shadow: 0 20px 20px rgba(255, 255, 255, 0.8);
+    }
+
+    i {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: 64px;
+        padding: 16px;
+
+
+        img{
+            max-width: 130px;
+            max-height: 130px;
+            object-fit: contain;
+        }
+    }
+}
