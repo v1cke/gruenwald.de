@@ -10,6 +10,7 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
 import { StartComponent } from './start/start.component';
 import { HomeComponent } from './home/home.component';
 import { BackgroundComponent } from './background/background.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { BackgroundComponent } from './background/background.component';
     StartComponent,
     HomeComponent,
     BackgroundComponent,
+    SkillsComponent,
   ],
   imports: [
     BrowserModule,

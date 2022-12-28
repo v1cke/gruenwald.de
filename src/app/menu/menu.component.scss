@@ -1,15 +1,16 @@
 header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    height: 100px;
+    // margin-bottom: 70px;
     padding-left: 160px;
     padding-right: 160px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 2;
+    // z-index: 2;
 
     a {
         text-decoration: none;

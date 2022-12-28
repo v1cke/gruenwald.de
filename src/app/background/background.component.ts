@@ -10,8 +10,8 @@ export class BackgroundComponent implements OnInit {
 
   mouseX: any;
   mouseY: any;
-  windowWidth: number = 833;
-  showLight: boolean = true;
+  // windowWidth: number = 833;
+  // showLight: boolean = true;
 
   constructor(private service: ServicesService) {}
 
@@ -25,8 +25,6 @@ export class BackgroundComponent implements OnInit {
  */
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
-    // this.windowWidth = event.target.innerWidth
-
   }
 
 
@@ -39,8 +37,6 @@ export class BackgroundComponent implements OnInit {
     this.mouseX = e.pageX;
     this.mouseY = e.pageY;
     console.log(this.mouseX, this.mouseY);
-    
-    // this.showBackLight();
    }
 
 }

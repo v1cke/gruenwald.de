@@ -3,7 +3,40 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: black;
-    overflow: hidden;
-    min-height: 100vh;
+    // overflow: hidden;
     font-family: sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.width-container {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-column{
+    flex-direction: column;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.p-relativ {
+    position: relative;
 }
