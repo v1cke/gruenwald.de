@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import AOS from 'aos';
-import 'aos/dist/aos.scss';
+// import AOS from 'aos';
+import * as AOS from "aos";
 
 @Component({
   selector: 'app-skills',
