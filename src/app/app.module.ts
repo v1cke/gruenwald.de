@@ -11,18 +11,20 @@ import { StartComponent } from './start/start.component';
 import { HomeComponent } from './home/home.component';
 import { BackgroundComponent } from './background/background.component';
 import { SkillsComponent } from './skills/skills.component';
+import { MyworkComponent } from './mywork/mywork.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     // SlideshowComponent,
-    MenuComponent,
-    ImprintComponent,
-    DataProtectionComponent,
-    StartComponent,
     HomeComponent,
     BackgroundComponent,
+    MenuComponent,
+    StartComponent,
     SkillsComponent,
+    ImprintComponent,
+    DataProtectionComponent,
+    MyworkComponent,
   ],
   imports: [
     BrowserModule,
