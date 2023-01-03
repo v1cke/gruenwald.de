@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { BackgroundComponent } from './background/background.component';
 import { SkillsComponent } from './skills/skills.component';
 import { MyworkComponent } from './mywork/mywork.component';
+import { AboutmeComponent } from './aboutme/aboutme.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { MyworkComponent } from './mywork/mywork.component';
     ImprintComponent,
     DataProtectionComponent,
     MyworkComponent,
+    AboutmeComponent,
   ],
   imports: [
     BrowserModule,

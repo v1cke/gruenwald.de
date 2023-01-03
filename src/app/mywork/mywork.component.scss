@@ -7,10 +7,11 @@ h2 {
 
 .project-container{
     display: flex;
-    width: 100%;
+    width: 90%;
     background-color: #cecece;
     margin-top: 100px;
     margin-bottom: 100px;
+    margin-left: 50px;
     border-radius: 25px;
     transform-style: preserve-3d;
     perspective: 1000px;
@@ -31,8 +32,7 @@ h2 {
         display: flex;
         align-items: center;
         justify-content: center;
-        max-height: 300px;
-        padding: 16px;
+        padding-bottom: 30px;
     }
 
     .text-container{
@@ -48,13 +48,14 @@ h2 {
         }
 
         button{
-            background-color: rgb(130, 130, 130);
+            background-color: #fc7a00;
             border-style: hidden;
-            width: 100px;
-            height: 50px;
+            width: 110px;
+            height: 45px;
             color: white;
             font-size: 20px;
             cursor: pointer;
+            box-shadow: 10px 15px 20px rgb(0, 0, 0, 0.3);
         }
 
         .btn1{
