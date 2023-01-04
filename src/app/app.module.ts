@@ -13,6 +13,12 @@ import { BackgroundComponent } from './background/background.component';
 import { SkillsComponent } from './skills/skills.component';
 import { MyworkComponent } from './mywork/mywork.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
+import { ContactComponent } from './contact/contact.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { NgForm, ReactiveFormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -27,10 +33,16 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
     DataProtectionComponent,
     MyworkComponent,
     AboutmeComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatFormFieldModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

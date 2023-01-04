@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as AOS from "aos";
 
 @Component({
   selector: 'app-aboutme',
@@ -10,6 +11,7 @@ export class AboutmeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    AOS.init();
   }
 
 }

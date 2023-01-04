@@ -1,0 +1,51 @@
+<div class="main-container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <div class="width-container">
+        <div class="background-container" >
+            <div class="side-container"></div>
+            <div class="contact-container">
+                <div class="message-container">
+                    <h1 id="contactID">Contact me.</h1>
+                    <span>"If you would like to get in touch with me, you can either fill out the following form or send an
+                        email directly to <a class="mail-link"
+                            href="mailto:v1cke1982@gmail.com">post@viktor-gruenwald.de</a>. I'll respond as soon as
+                        possible."</span>
+                </div>
+                <div class="forms-container">
+                    <mat-form-field appearance="fill">
+                        <div class="marg-btm">
+                            <span>Name</span>
+                            <input matInput>
+                        </div>
+                        <div class="marg-btm">
+                            <span>Email adress</span>
+                            <input matInput placeholder="email" [formControl]="email">
+                            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                        </div>
+                        <div class="marg-btm">
+                            <span>Your message</span>
+                            <textarea matInput placeholder="Your message"></textarea>
+                        </div>
+                        <div class="btn-container">
+                            <button mat-raised-button>SEND</button>
+                        </div>
+                    </mat-form-field>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <mat-form-field appearance="fill">
+    <mat-label>Your Name</mat-label>
+    <input matInput placeholder="Name">
+</mat-form-field>
+<mat-form-field appearance="fill">
+    <mat-label>Enter your email</mat-label>
+    <input matInput placeholder="email" [formControl]="email" required>
+    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+</mat-form-field>
+<mat-form-field appearance="fill">
+    <mat-label>Textarea</mat-label>
+    <textarea matInput placeholder="Your message"></textarea>
+</mat-form-field> -->
