@@ -11,24 +11,23 @@
                         possible."</span>
                 </div>
                 <div class="forms-container">
-                    <mat-form-field appearance="fill">
+                    <form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)" ngNativeValidate>
                         <div class="marg-btm">
                             <span>Name</span>
-                            <input matInput>
+                            <input id="name" name="name" ngModel #name="ngModel" required>
                         </div>
                         <div class="marg-btm">
                             <span>Email adress</span>
-                            <input matInput placeholder="email" [formControl]="email">
-                            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                            <input placeholder="email" id="email" type="email" name="email" ngModel #email="ngModel" required>
                         </div>
                         <div class="marg-btm">
                             <span>Your message</span>
-                            <textarea matInput placeholder="Your message"></textarea>
+                            <textarea placeholder="Your message" id="message" name="message" ngModel required></textarea>
                         </div>
                         <div class="btn-container">
-                            <button mat-raised-button>SEND</button>
+                            <button [disabled]="!myForm.valid">SEND</button>
                         </div>
-                    </mat-form-field>
+                    </form>
                 </div>
             </div>
         </div>

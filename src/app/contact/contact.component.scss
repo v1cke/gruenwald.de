@@ -1,5 +1,5 @@
 .width-container {
-    height: 900px;
+    height: 800px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -7,11 +7,12 @@
     align-items: center;
     position: relative;
     border-top-right-radius: 20%;
+    margin-top: 100px;
     
     .side-container{
         width: calc(80vw - 1000px);
         min-width: 800px;
-        height: 900px;
+        height: 800px;
         position: absolute;
         left: -800px;
         background-color: #fc7a00;
@@ -26,11 +27,11 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            height: 750px;
+            height: 700px;
             max-width: 80%;
 
             .message-container{
-                margin-top: 80px;
+                margin-top: 30px;
                 h1{
                     font-size: 3em;
                 }
@@ -53,21 +54,25 @@
                 
                 input{
                     background-color: white;
+                    color: black;
                     width: 100%;
                     height: 2em;
-                    margin-top: 20px;
+                    margin-top: 10px;
                     border-radius: 15px;
+                    border: transparent;
                     padding-left: 10px;
                     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
                 }
                 
                 textarea{
                     background-color: white;
+                    color: black;
                     width: 100%;
                     height: 4em;
-                    margin-top: 20px;
+                    margin-top: 10px;
                     border-radius: 15px;
                     padding-left: 10px;
+                    border: transparent;
                     padding-top: 10px;
                     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
                 }
@@ -80,6 +85,7 @@
                     
                     button{
                         background-color: rgb(130, 130, 130);
+                        cursor: pointer;
                         color: white;
                         width: 250px;
                         height: 40px;
